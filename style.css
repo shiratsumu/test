@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body{
+    background-color: aquamarine;
+}
+
+header nav {
+    background: rgba(255,255,255,0.85);
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+
+header nav ul{
+    display: block;
+    padding: 20px 0 12rem 0;
+
+}
+header nav li {
+    font-size:0.85rem;
+    padding: 20px;
+    color: #606060;
+    border-bottom:1px solid rgba(118,123,133,0.3);
+    text-align:center;
+
+
+}
+header nav a {
+    color: #333;
+    font-weight: normal;
+    text-shadow: none;    
+}
+header nav a:hover{
+    color: #1861ae!important;
+}
